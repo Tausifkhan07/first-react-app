@@ -1,0 +1,41 @@
+.banner-crumbs {
+    background-image: url('pattern-dot.png');
+    background-repeat: repeat;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #518f51;
+    color: #fff;
+    font-size: 30px;
+}
+.banner-crumbs ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    padding-left: 0;
+  }
+  .banner-crumbs li:last-child {
+    padding-left: 15px;
+  }
+  .banner-crumbs li {
+    font-size: 15px;
+  }
+  .banner-crumbs li:first-child::after {
+    content: "/";
+    position: absolute;
+    padding-left: 4px;
+  }
+  .banner-crumbs ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .banner-crumbs ul a:hover {
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .banner-crumbs {
+      padding: 20px 0 11px;
+    }
+  }

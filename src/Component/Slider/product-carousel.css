@@ -1,0 +1,65 @@
+.item-box {
+    background-color: #f1f3f6;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+.img-box {
+    width: 200px;
+    height: 140px;
+  }
+.owl-carousel .owl-item .item-box img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+.item-box .title {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.owl-carousel .item-box img {
+    padding: 5px 8px;
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: calc(50% - 32px);
+    width: 100%;
+    height: 55px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background-color: #fff;
+    width: 40px;
+    height: 55px;
+    position: absolute;
+    z-index: 30;
+    box-shadow: 1px 3px 5px gray;
+    border-radius: 5px;
+    font-size: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-carousel .owl-nav button.owl-prev span, .owl-carousel .owl-nav button.owl-next span {
+    width: 28px;
+    height: 70px;
+    font-size: 40px;
+  }
+  .owl-carousel .owl-nav .disabled {
+    opacity: 0.3;
+  }
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: -11px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: -11px;
+}
